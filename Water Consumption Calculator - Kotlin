@@ -1,0 +1,6 @@
+fun main(args: Array<String>) {
+    var years = readLine()!!.toInt()
+    var days = readLine()!!.toInt()
+    var litres = readline()!!.toInt()
+    println(years * days * litres)    
+}
